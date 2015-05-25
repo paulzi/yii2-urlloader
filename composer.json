@@ -1,0 +1,34 @@
+{
+  "name": "paulzi/yii2-urlloader",
+  "description": "UrlLoader. Multithreaded downloader links for Yii2",
+  "keywords": ["yii2", "curl", "multicurl"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/Paul-Zi/yii2-urlloader/issues?state=open",
+    "source": "https://github.com/Paul-Zi/yii2-urlloader"
+  },
+  "authors": [
+    {
+      "name": "PaulZi",
+      "email": "pavel.zimakoff@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.0",
+    "paulzi/multicurl": "*"
+  },
+  "repositories":[
+    {
+      "type":"git",
+      "url":"http://github.com/Paul-Zi/multicurl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "paulzi\\urlloader\\": ""
+    }
+  }
+}
